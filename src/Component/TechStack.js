@@ -27,13 +27,15 @@ const TechStack = () => {
         <div className='max-w-[1200px] mx-auto text-[1.5rem] sm:text-[2rem] font-semibold text-[#0077B6] underline mb-6 text-center lg:text-left lg:text-[2.5rem]'>Me and My Tech Stack</div>
     <div className='flex flex-col-reverse max-w-[1200px] items-center justify-center gap-5 mx-auto lg:flex-row lg:justify-between'>
     
-    <div className='max-w-[600px] font-semibold text-[0.875rem] sm:text-[1rem] text-justify '>
+    <div className='max-w-[600px] font-normal text-[0.875rem] sm:text-[1rem] text-justify '>
         <div>
         As a Research Engineer specializing in software and web development, I command a robust technical repertoire. For software development, my proficiency lies in Java, C++, and Python, combined with version control using Git and data management using MySQL. In the realm of web development, I'm adept at HTML, CSS, and JavaScript, and leverage frameworks and libraries like Bootstrap, Tailwind CSS, Express, ReactJS, and NodeJS. I utilize NPM for package management, Redux for state management, Mongoose to interface with MongoDB, and Postman for API development. My design capabilities encompass tools like Figma and Adobe Creative Cloud, enabling me to deliver comprehensive, high-quality solutions.
         </div>
     </div>
 
     <div>
+        {/* <div className ='absolute top-0 w-[100px] h-[100px] bg-sky-500 -z-10 -translate-y-6 transition duration-150 ease-out'></div> */}
+
         <div className='flex flex-row gap-8 items-center '>
             <div>
                 <img src={java_logo} alt="" srcset="" width={55} className='hover:scale-110' />

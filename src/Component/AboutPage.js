@@ -1,23 +1,29 @@
 import React from 'react';
 import prahlad_img from "../Content/prahlad.jpg"
 import Edex from './Edex';
-
+// import anime1 from "../Content/anime1.jpg";
+// import anime2 from"../Content/anime2.jpg";
+ 
 const AboutPage = () => {
   return (
 
-    <div className='px-5'>
+    <div className='px-5 '>
 
     <div className='mt-10 lg:max-h-max '>
-        <h2 className='max-w-[1200px] mx-auto text-[1.5rem] sm:text-[2rem] font-semibold text-[#0077B6] underline mb-6 text-center lg:text-left lg:text-[2.5rem]'>About Me</h2>
-    
+
+        <div className=' max-w-[1200px] mx-auto text-[1.5rem] sm:text-[2rem] font-semibold text-[#0077B6] underline mb-6 text-center lg:text-left lg:text-[2.5rem]'>About Me
+
+        </div>
+
     <div className='flex flex-col max-w-[1080px] item-center justify-between mx-auto my-4  gap-6 md:flex-row'>
 
     <div className='md:min-w-[500px] flex items-center justify-center'>
-        <img src={prahlad_img} alt="" srcset="" className='w-[250px] md:w-[400px]'/>
+        <img src={prahlad_img} alt="" srcset="" className='w-[250px] md:w-[400px]  shadow-md'/>
     </div>
     
     <div>
     <div className='flex flex-col items-start justify-center gap-4 my-12'>
+
         <div>
         <h2 className='text-[1.5rem] sm:text-[2rem]'>I am <span className='text-[#0096C7] uppercase animate-fade-left animate-once animate-ease-linear animate-normal animate-fill-forwards'>Prahlad Pallav</span></h2>
         </div>

@@ -12,7 +12,7 @@ const Edex = () => {
 
     <div>
         <div className='text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem] font-semibold text-[#0077B6] underline mb-10' >Education</div>
-        <div className='flex flex-row gap-5 items-center'>
+        <div className='flex flex-row gap-5 items-center shadow-md p-3 rounded-md shadow-slate-200 hover:scale-105'>
             <div>
                 <img src={iitd_logo} alt="" srcset="" width={90}/>
             </div>
@@ -23,7 +23,7 @@ const Edex = () => {
             </div>
         </div>
 
-        <div className='flex flex-row gap-5 mt-8 items-center'>
+        <div className='flex flex-row gap-5 mt-8 items-center shadow-md p-3 rounded-md shadow-slate-200 hover:scale-105'>
             <div>
                 <img src={park_logo} alt="" srcset="" width={90}/>
             </div>
@@ -34,7 +34,7 @@ const Edex = () => {
             </div>
         </div>
 
-        <div className='flex flex-row gap-5 mt-8 items-center' >
+        <div className='flex flex-row gap-5 mt-8 items-center shadow-md p-3 rounded-md shadow-slate-200 hover:scale-105' >
             <div>
                 <img src={radiant_logo} alt="" srcset="" width={90}/>
             </div>
@@ -48,7 +48,7 @@ const Edex = () => {
 
     <div>
         <div className='text-[1.5rem] sm:text-[2rem] lg:text-[2.5rem] font-semibold text-[#0077B6] underline mb-10' >Experience</div>
-        <div className='flex flex-row gap-5 items-center'>
+        <div className='flex flex-row gap-5 items-center shadow-md p-3 rounded-md shadow-slate-200 hover:scale-105'>
             <div>
                 <img src={mobishaala_logo} alt="" srcset="" width={90}/>
             </div>
@@ -59,7 +59,7 @@ const Edex = () => {
             </div>
         </div>
 
-        <div className='flex flex-row gap-5 mt-8 items-center'>
+        <div className='flex flex-row gap-5 mt-8 items-center shadow-md p-3 rounded-md shadow-slate-200 hover:scale-105'>
             <div>
                 <img src={blood_logo} alt="" srcset="" width={90}/>
             </div>
@@ -70,7 +70,7 @@ const Edex = () => {
             </div>
         </div>
 
-        <div className='flex flex-row gap-5 mt-8 items-center'>
+        <div className='flex flex-row gap-5 mt-8 items-center shadow-md p-3 rounded-md shadow-slate-200 hover:scale-105'>
             <div>
                 <img src={hindi_logo} alt="" srcset="" width={90}/>
             </div>
